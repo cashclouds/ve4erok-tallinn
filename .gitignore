@@ -1,0 +1,35 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code
+.claude/
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Логи
+*.log
+npm-debug.log*
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы OS
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Бэкапы
+*.bak
+*.backup
+
+# Необязательные файлы документации (можно раскомментировать если не нужны)
+# HERO-IMAGE-SETUP.md
+# jft-data-extended.js

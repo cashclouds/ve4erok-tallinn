@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Группа Анонимных Наркоманов ВечерОК в Таллине. Встречи каждый день в 20:00. Анонимно. Бесплатно. Без морализаторства.">
+    <title>ВечерОК - Группа АН в Таллине</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="hero-title">Устал торчать?</h1>
+                <p class="hero-subtitle">Есть место, где помогут.<br>Анонимно. Без моралей.</p>
+                <a href="#location" class="cta-button">Прийти сегодня в 20:00</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Just For Today Section -->
+    <section class="just-for-today">
+        <div class="container">
+            <div class="jft-header">
+                <h2>Только сегодня</h2>
+                <p class="jft-date" id="current-date"></p>
+            </div>
+
+            <div class="jft-content">
+                <h3 class="jft-title" id="jft-title">Загрузка...</h3>
+
+                <blockquote class="jft-quote" id="jft-quote">
+                    <!-- Quote will be loaded here -->
+                </blockquote>
+
+                <div class="jft-text" id="jft-text">
+                    <!-- Main text will be loaded here -->
+                </div>
+
+                <div class="jft-thought">
+                    <strong>Только сегодня:</strong>
+                    <p id="jft-daily-thought"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>Группа «ВечерОК»</h2>
+            <p class="about-text">
+                Мы — сообщество выздоравливающих зависимых, которые встречаются,
+                чтобы помочь друг другу оставаться чистыми. Единственное требование
+                для членства — желание прекратить употребление.
+            </p>
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="icon">🕐</div>
+                    <h3>Каждый день</h3>
+                    <p>Встречаемся ежедневно в 20:00</p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">🔒</div>
+                    <h3>Анонимно</h3>
+                    <p>Ваша личная жизнь остается за порогом</p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">💝</div>
+                    <h3>Бесплатно</h3>
+                    <p>Мы самодостаточны благодаря собственным взносам</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <h2>Как нас найти</h2>
+            <p class="location-info">
+                Ждем тебя ежедневно в 20:00 по адресу<br>
+                <strong>ул. Сикупилли, 3, Таллин (Sikupilli 3, Tallinn)</strong><br>
+                Дверь всегда открыта.
+            </p>
+
+            <!-- Google Maps Embed -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2027.5821374638642!2d24.79426991583753!3d59.437499481712054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929335e96b53d3%3A0x9c7b8b3d5e1f3e5!2sSikupilli%203%2C%2011415%20Tallinn%2C%20Estonia!5e0!3m2!1sru!2see!4v1735000000000!5m2!1sru!2see"
+                    width="100%"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Группа «ВечерОК» работает по принципам Анонимных Наркоманов</p>
+            <p class="footer-note">Если ты хочешь перестать употреблять — мы здесь, чтобы помочь.</p>
+        </div>
+    </footer>
+
+    <script src="jft-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
